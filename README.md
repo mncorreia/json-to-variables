@@ -33,10 +33,10 @@ The prefix. Default value is empty.
 ### YML example 
 ```yml
 - name: JSON to variables
-  uses: antifree/json-to-variables@v1.0.1
+  uses: mncorreia/json-to-variables-without-prefix@v1.0.1
   with:
     filename: 'test.json'
-    prefix: test
+    prefix: ''
 - name: Show output
   run: echo "The time was ${{ env.value }}, ${{ env.array_0_value }}, ${{ env.obj_value1 }}"
 ```
