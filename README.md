@@ -9,7 +9,7 @@ This action reads json file and writes its content as environment variables.
 
 ### `prefix`
 
-The prefix. Default value `json`.
+The prefix. Default value is empty.
 
 ## Usage
 
@@ -38,5 +38,5 @@ The prefix. Default value `json`.
     filename: 'test.json'
     prefix: test
 - name: Show output
-  run: echo "The time was ${{ env.test_value }}, ${{ env.test_array_0_value }}, ${{ env.test_obj_value1 }}"
+  run: echo "The time was ${{ env.value }}, ${{ env.array_0_value }}, ${{ env.obj_value1 }}"
 ```

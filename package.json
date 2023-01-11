@@ -12,7 +12,7 @@
     "url": "git+https://github.com/antifree/json-to-variables.git"
   },
   "keywords": [],
-  "author": "Anton Ivanenko",
+  "author": "Matheus Correia",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/antifree/json-to-variables/issues"
